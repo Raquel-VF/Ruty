@@ -1,0 +1,13 @@
+cores
+
+backgroud #181818
+black #000000
+vermelho #F40612
+
+degrade #333333 / #181818
+
+fontes: bebas 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+font-family: "Bebas Neue", sans-serif;

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to bottom
+    , #181818, #181818cb );
+    color: white;
+}
+
+header{
+    display: inline-flexbox ;
+    background-color: black;
+}
+
+header > h1 {
+    color: red;
+}
