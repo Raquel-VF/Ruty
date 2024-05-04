@@ -4,6 +4,8 @@
 
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-image: linear-gradient(to bottom
@@ -12,10 +14,21 @@ body{
 }
 
 header{
-    display: inline-flexbox ;
-    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 100;    
+}
+header .logo img{
+    max-width: 150px;
 }
 
-header > h1 {
-    color: red;
+header > a{
+    
 }
