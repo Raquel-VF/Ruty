@@ -1,34 +1,19 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
+
+}
+
+header {
     box-sizing: border-box;
-}
-body{
-    background-image: linear-gradient(to bottom
-    , #181818, #181818cb );
-    color: white;
+    background: center;
+    background-color: black;
 }
 
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    width: 100%;
+.header .logo{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 100px;
-    z-index: 100;    
-}
-header .logo img{
-    max-width: 150px;
-}
-
-header > a{
+    text-align: center;
     
 }
